@@ -41,3 +41,14 @@ body{
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
+.botoes {
+    display: block;
+}
+.botao:first-child {
+    border-radius: 40px 40px 0 0;
+}
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
+    }
+}
